@@ -105,7 +105,7 @@ const Register = () => {
     });
     const data = await response.json();
     if (data.status === "ok") {
-      history.replace("/");
+      history.replace("/dashboard");
     } else {
       toast.error("Something went Wrong", {
         position: "bottom-center",

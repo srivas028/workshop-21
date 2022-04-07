@@ -16,7 +16,7 @@ const Dashboard = () => {
   }, []);
 
   const onLogout = () => {
-    history.replace("/dashboard");
+    history.replace("/");
   };
   return (
     <div className="dashboard-top-container">
