@@ -19,8 +19,8 @@ const Dashboard = () => {
     history.replace("/dashboard");
   };
   return (
-    <div className="top-container">
-      <div className="text-container">
+    <div className="dashboard-top-container">
+      <div className="dashboard-text-container">
         <h1>Welcome</h1>
         <button type="button" className="dashboard-button" onClick={onLogout}>
           Logout

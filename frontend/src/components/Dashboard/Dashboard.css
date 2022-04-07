@@ -1,4 +1,4 @@
-.top-container {
+.dashboard-top-container {
   display: flex;
   justify-content: flex-start;
   color: #fff;
@@ -6,7 +6,7 @@
   text-align: center;
 }
 
-.text-container {
+.dashboard-text-container {
   display: flex;
   justify-content: space-between;
   align-items: center;

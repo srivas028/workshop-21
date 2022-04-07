@@ -17,7 +17,7 @@ const Home = () => {
   };
 
   return (
-    <div className="top-container">
+    <div className="home-top-container">
       <div className="title-container">
         <h1 className="heading">Message App</h1>
       </div>

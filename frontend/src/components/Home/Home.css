@@ -1,4 +1,4 @@
-.top-container {
+.home-top-container {
   display: flex;
   flex-direction: column;
   align-content: center;
@@ -59,4 +59,13 @@
   border-width: 0px;
   color: #111;
   background-color: #68c6e8;
+}
+
+@media (max-width: 480px) {
+  .home-top-container {
+    min-width: auto;
+  }
+  .bottom-container {
+    min-width: auto;
+  }
 }
